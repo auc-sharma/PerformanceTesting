@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: web_custom_request",
+                "infFile": "t1.inf",
+                "time": 1628800447196
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Transaction_01",
+                "rawStartTime": 1628800446402,
+                "rawEndTime": 1628800447252,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05308246612548828
+            }
+        ]
+    }
+]

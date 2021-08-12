@@ -1,0 +1,428 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 8/13/2021 2:04:00 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.1.0 for Windows 10; build 460 (Apr 22 2021 19:27:24)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\DELL\Documents\VuGen\Scripts\WebServiceScript\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=3375ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=1)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:33:58 GMT\r\n
+Action.c(21):     Content-Length: 311\r\n
+Action.c(21):     \r\n
+Action.c(21): t=3385ms: 311-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=1)
+Action.c(21): t=3387ms: 336-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=1)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>New Delhi</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 311 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.9454 Wasted Time: 0.1426).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=4323ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=2)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:33:59 GMT\r\n
+Action.c(21):     Content-Length: 311\r\n
+Action.c(21):     \r\n
+Action.c(21): t=4333ms: 311-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=2)
+Action.c(21): t=4336ms: 337-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=2)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>Washington</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 311 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.7290 Wasted Time: 0.0250).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=5123ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=3)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:34:00 GMT\r\n
+Action.c(21):     Content-Length: 310\r\n
+Action.c(21):     \r\n
+Action.c(21): t=5132ms: 310-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=3)
+Action.c(21): t=5134ms: 335-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=3)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>Canberra</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 310 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.7014 Wasted Time: 0.0345).
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=5923ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=4)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:34:01 GMT\r\n
+Action.c(21):     Content-Length: 308\r\n
+Action.c(21):     \r\n
+Action.c(21): t=5931ms: 308-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=4)
+Action.c(21): t=5933ms: 332-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=4)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>Kabul</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 308 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.6907 Wasted Time: 0.0347).
+Ending action Action.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=6883ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=5)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:34:02 GMT\r\n
+Action.c(21):     Content-Length: 308\r\n
+Action.c(21):     \r\n
+Action.c(21): t=6891ms: 308-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=5)
+Action.c(21): t=6892ms: 333-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=5)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>Tirana</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 308 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.8592 Wasted Time: 0.0319).
+Ending action Action.
+Ending iteration 5.
+Starting iteration 6.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=7843ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=6)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:34:03 GMT\r\n
+Action.c(21):     Content-Length: 312\r\n
+Action.c(21):     \r\n
+Action.c(21): t=7852ms: 312-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=6)
+Action.c(21): t=7854ms: 337-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=6)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>The Valley</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 312 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.8608 Wasted Time: 0.0519).
+Ending action Action.
+Ending iteration 6.
+Starting iteration 7.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=8803ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=7)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:34:04 GMT\r\n
+Action.c(21):     Content-Length: 309\r\n
+Action.c(21):     \r\n
+Action.c(21): t=8813ms: 309-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=7)
+Action.c(21): t=8815ms: 333-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=7)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>Luanda</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 309 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.8500 Wasted Time: 0.0531).
+Ending action Action.
+Ending iteration 7.
+Starting iteration 8.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=9762ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=8)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:34:04 GMT\r\n
+Action.c(21):     Content-Length: 309\r\n
+Action.c(21):     \r\n
+Action.c(21): t=9777ms: 309-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=8)
+Action.c(21): t=9779ms: 333-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=8)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>Luanda</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 309 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.8651 Wasted Time: 0.0591).
+Ending action Action.
+Ending iteration 8.
+Starting iteration 9.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=10723ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=9)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:34:05 GMT\r\n
+Action.c(21):     Content-Length: 309\r\n
+Action.c(21):     \r\n
+Action.c(21): t=10732ms: 309-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=9)
+Action.c(21): t=10733ms: 333-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=9)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>Luanda</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 309 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.8226 Wasted Time: 0.0543).
+Ending action Action.
+Ending iteration 9.
+Starting iteration 10.
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Action.c(4): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(4): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(19): Notify: Transaction "Transaction_01" started.
+Action.c(19): Warning: Failed to get NV emulation handle.
+Action.c(21): web_custom_request("web_custom_request") started  	[MsgId: MMSG-26355]
+Action.c(21): t=11683ms: 253-byte response headers for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=10)
+Action.c(21):     HTTP/1.1 200 OK\r\n
+Action.c(21):     Cache-Control: private, max-age=0\r\n
+Action.c(21):     Content-Type: text/xml; charset=utf-8\r\n
+Action.c(21):     Content-Encoding: gzip\r\n
+Action.c(21):     Vary: Accept-Encoding\r\n
+Action.c(21):     Server: Microsoft-IIS/8.5\r\n
+Action.c(21):     Web-Service: DataFlex 19.1\r\n
+Action.c(21):     Date: Thu, 12 Aug 2021 20:34:06 GMT\r\n
+Action.c(21):     Content-Length: 309\r\n
+Action.c(21):     \r\n
+Action.c(21): t=11691ms: 309-byte ENCODED response body received for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=10)
+Action.c(21): t=11693ms: 333-byte DECODED response body for "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso" (RelFrameId=1, Internal ID=10)
+Action.c(21):     <?xml version="1.0" encoding="utf-8"?>\r\n
+Action.c(21):     <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">\r\n
+Action.c(21):       <soap:Body>\r\n
+Action.c(21):         <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">\r\n
+Action.c(21):           <m:CapitalCityResult>Luanda</m:CapitalCityResult>\r\n
+Action.c(21):         </m:CapitalCityResponse>\r\n
+Action.c(21):       </soap:Body>\r\n
+Action.c(21):     </soap:Envelope>
+Action.c(21): HTML parsing not performed for Content-Type "text/xml" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso"  	[MsgId: MMSG-26548]
+Action.c(21): Registered web_reg_find successful for "Text=m:CapitalCityResult" (count=2)  	[MsgId: MMSG-26364]
+Action.c(21): Registered web_reg_find successful for "Text=Country not found in the database"  	[MsgId: MMSG-26362]
+Action.c(21): web_custom_request("web_custom_request") was successful, 309 body bytes, 253 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "Transaction_01" ended with a "Pass" status (Duration: 0.8916 Wasted Time: 0.0704).
+Ending action Action.
+Ending iteration 10.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 13128), ended OK."

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Web-Service: DataFlex 19.1
+Date: Thu, 12 Aug 2021 20:34:06 GMT
+Content-Length: 309
+
